@@ -7,4 +7,7 @@ To get started with TDD, see the `README.md` file in your
 =end
 
 class HelloWorld
-    
+  def self.hello
+    "Hello, World!"
+  end
+end
