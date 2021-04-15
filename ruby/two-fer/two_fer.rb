@@ -7,7 +7,11 @@ To get started with TDD, see the `README.md` file in your
 =end
 
 class TwoFer
-    def self.two_fer(name)
-    @name = "One for" @name.to_s " , one for me."
+    def self.two_fer(name = '')
+        if name.empty?
+        "One for you, one for me."
+        else
+       "One for" + name.to_s + " , one for me."
+        end
     end
 end
