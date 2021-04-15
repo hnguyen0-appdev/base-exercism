@@ -8,7 +8,7 @@ To get started with TDD, see the `README.md` file in your
 
 #class to obtain acronym from word
 class Acronym
-    def self.abbreviate(setence)
+    def self.abbreviate(sentence)
         sentence.split.map { |initial_letter| initial_letter[0,1] }.join.to_s
     end
 end
